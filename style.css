@@ -11,6 +11,10 @@
   padding: 5px;
 }
 
+.profile-image:hover {
+  cursor: pointer;
+}
+
 body {
   background-color: #00ac96;
 }
