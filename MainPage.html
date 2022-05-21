@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Main Page</title>
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="container-fluid ">
+            <div class="row main     rounded-2">
+                <!-- left panel -->
+                <div class="col-md-5">
+                    <div class="row ">
+                        <!-- profile image -->
+                        <div class="col-md-8 ">
+                            <img class="profile-image rounded-circle" src=" ./img/1.jpg " alt=" ">
+                        </div>
+                        <!-- icon menu -->
+                        <div class="col-md-4 my-auto">
+                            <div class="icon-menu d-flex justify-content-between">
+                                <i class="material-icons">cached</i>
+                                <i class="material-icons">chat</i>
+                                <i class="material-icons">more_horize</i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- search bar -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="search-box">
+                                <div class="input-wrapper d-flex rounded-3">
+                                    <input class="form-control border-0" type="search"
+                                        placeholder="Search or start a new chat" aria-label="Search">
+                                    <i class="material-icons my-auto ">search</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chat drawer -->
+                    <div class="chat-drawer mt-2 ">
+                        <!-- friend message 1 -->
+                        <div class="row ">
+                            <!-- profile image -->
+                            <div class="col-md-2 d-flex justify-content-center align-items-center p-2">
+                                <img src="./img/friend/jk.jpg" class="profile-image rounded-circle p-0 " alt="">
+                            </div>
+                            <!-- profile name and message -->
+                            <div class="col-md-8 p-2">
+                                <h6>Jokowi Widodo</h6>
+                                <p class="text-muted my-auto">Buah Kaget
+                            </div>
+                            <!-- time -->
+                            <div class="col-md-2 d-flex justify-content-end">
+                                <span class="time text-muted small ">04.20</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- chat drawer 2 -->
+                    <div class="chat-drawer mt-2 ">
+                        <!-- friend message 2 -->
+                        <div class="row ">
+                            <!-- profile image -->
+                            <div class="col-md-2 d-flex justify-content-center align-items-center p-2">
+                                <img src="./img/friend/jk.jpg" class="profile-image rounded-circle p-0 " alt="">
+                            </div>
+                            <!-- profile name and message -->
+                            <div class="col-md-8 p-2">
+                                <h6>Jokowi Widodo</h6>
+                                <p class="text-muted my-auto">Buah Kaget
+                            </div>
+                            <!-- time -->
+                            <div class="col-md-2 d-flex justify-content-end">
+                                <span class="time text-muted small ">04.20</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- right panel -->
+                <div class="col-md-7">
+                    <div class="row">
+                        <!-- friend profile -->
+                        <div class="col-md-1 py-2 px-2">
+                            <img class="profile-image rounded-circle" src="./img/friend/jk.jpg" alt="">
+                        </div>
+                        <!-- friend name and status -->
+                        <div class="col-md-8 py-2 my-auto">
+                            <h6 class="m-0">Jokowi Widodo</h6>
+                            <p class="status text-muted m-0">President of Republic Indonesia</p>
+                        </div>
+                        <!-- search button -->
+                        <div class="col-md-3 d-flex justify-content-evenly">
+                            <i class="material-icons my-auto ">search</i>
+                            <i class="material-icons my-auto ">more_horiz</i>
+                        </div>
+                    </div>
+                    <div class="chat-panel">
+                        <!-- friend message -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-start">
+                                <div class="user chat-bubble">
+                                    assalamualaikum
+                                </div>
+                            </div>
+                        </div>
+                        <!-- your message -->
+                        <div class="row">
+                            <div class="col-md-12 d-flex justify-content-end">
+                                <div class="friend chat-bubble">
+                                    walaikumsalam
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- chat box -->
+                        <div class="chat-box">
+                            <div class="row ">
+                                <!-- emote button -->
+                                <div class="col-md-2 p-0 d-flex justify-content-center align-content-center">
+                                    <i class="material-icons my-auto">sentiment_very_satisfied</i>
+                                </div>
+                                <!-- form -->
+                                <div class="col-md-7 p-0">
+                                    <input type="text" class="form-control" placeholder="Type your message here...">
+                                </div>
+                                <!-- mic and send button -->
+                                <div class="col-md-3 p-0 d-flex justify-content-evenly align-items-center">
+                                    <i class="material-icons">mic</i>
+                                    <i class="material-icons">send</i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
